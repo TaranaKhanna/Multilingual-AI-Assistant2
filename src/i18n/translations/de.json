@@ -1,0 +1,35 @@
+{
+  "appTitle": "Mehrsprachiger KI-Assistent",
+  "sendButton": "Senden",
+  "clearButton": "Chat löschen",
+  "inputPlaceholder": "Nachricht eingeben...",
+  "imageUpload": {
+    "title": "Bild-Eingabe",
+    "uploadButton": "Hochladen",
+    "captureButton": "Aufnehmen",
+    "clearButton": "Löschen",
+    "descriptionPlaceholder": "Beschreiben Sie Ihr Bild...",
+    "sendButton": "Bild senden"
+  },
+  "audioRecording": {
+    "startButton": "Aufnahme starten",
+    "stopButton": "Aufnahme stoppen",
+    "listeningText": "Hört zu...",
+    "errorText": "Fehler: {{error}}"
+  },
+  "languageSelector": {
+    "label": "Sprache"
+  },
+  "messages": {
+    "you": "Sie",
+    "assistant": "KI-Assistent",
+    "typing": "KI schreibt..."
+  },
+  "errors": {
+    "apiKey": "Groq API-Schlüssel fehlt. Bitte fügen Sie VITE_GROQ_API_KEY zu Ihren Umgebungsvariablen hinzu.",
+    "sendMessage": "Nachricht konnte nicht gesendet werden",
+    "processImage": "Bild konnte nicht verarbeitet werden",
+    "processAudio": "Audio konnte nicht verarbeitet werden",
+    "browserSupport": "Ihr Browser unterstützt diese Funktion nicht"
+  }
+}

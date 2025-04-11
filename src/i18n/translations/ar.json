@@ -1,0 +1,35 @@
+{
+  "appTitle": "مساعد الذكاء الاصطناعي متعدد اللغات",
+  "sendButton": "إرسال",
+  "clearButton": "مسح المحادثة",
+  "inputPlaceholder": "اكتب رسالتك...",
+  "imageUpload": {
+    "title": "إدخال الصورة",
+    "uploadButton": "تحميل",
+    "captureButton": "التقاط",
+    "clearButton": "مسح",
+    "descriptionPlaceholder": "وصف الصورة...",
+    "sendButton": "إرسال الصورة"
+  },
+  "audioRecording": {
+    "startButton": "بدء التسجيل",
+    "stopButton": "إيقاف التسجيل",
+    "listeningText": "جاري الاستماع...",
+    "errorText": "خطأ: {{error}}"
+  },
+  "languageSelector": {
+    "label": "اللغة"
+  },
+  "messages": {
+    "you": "أنت",
+    "assistant": "مساعد الذكاء الاصطناعي",
+    "typing": "الذكاء الاصطناعي يكتب..."
+  },
+  "errors": {
+    "apiKey": "مفتاح API Groq مفقود. الرجاء إضافة VITE_GROQ_API_KEY إلى متغيرات البيئة الخاصة بك.",
+    "sendMessage": "فشل في إرسال الرسالة",
+    "processImage": "فشل في معالجة الصورة",
+    "processAudio": "فشل في معالجة الصوت",
+    "browserSupport": "متصفحك لا يدعم هذه الميزة"
+  }
+}

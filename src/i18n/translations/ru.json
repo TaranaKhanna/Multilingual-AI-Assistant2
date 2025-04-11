@@ -1,0 +1,35 @@
+{
+  "appTitle": "Многоязычный ИИ-ассистент",
+  "sendButton": "Отправить",
+  "clearButton": "Очистить чат",
+  "inputPlaceholder": "Введите ваше сообщение...",
+  "imageUpload": {
+    "title": "Загрузка изображения",
+    "uploadButton": "Загрузить",
+    "captureButton": "Снять",
+    "clearButton": "Очистить",
+    "descriptionPlaceholder": "Опишите ваше изображение...",
+    "sendButton": "Отправить изображение"
+  },
+  "audioRecording": {
+    "startButton": "Начать запись",
+    "stopButton": "Остановить запись",
+    "listeningText": "Слушаю...",
+    "errorText": "Ошибка: {{error}}"
+  },
+  "languageSelector": {
+    "label": "Язык"
+  },
+  "messages": {
+    "you": "Вы",
+    "assistant": "ИИ-ассистент",
+    "typing": "ИИ печатает..."
+  },
+  "errors": {
+    "apiKey": "Отсутствует ключ API Groq. Пожалуйста, добавьте VITE_GROQ_API_KEY в ваши переменные окружения.",
+    "sendMessage": "Не удалось отправить сообщение",
+    "processImage": "Не удалось обработать изображение",
+    "processAudio": "Не удалось обработать аудио",
+    "browserSupport": "Ваш браузер не поддерживает эту функцию"
+  }
+}

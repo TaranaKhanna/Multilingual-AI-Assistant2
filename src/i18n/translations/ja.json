@@ -1,0 +1,35 @@
+{
+  "appTitle": "多言語AIアシスタント",
+  "sendButton": "送信",
+  "clearButton": "チャットをクリア",
+  "inputPlaceholder": "メッセージを入力...",
+  "imageUpload": {
+    "title": "画像入力",
+    "uploadButton": "アップロード",
+    "captureButton": "キャプチャ",
+    "clearButton": "クリア",
+    "descriptionPlaceholder": "画像の説明...",
+    "sendButton": "画像を送信"
+  },
+  "audioRecording": {
+    "startButton": "録音開始",
+    "stopButton": "録音停止",
+    "listeningText": "聞いています...",
+    "errorText": "エラー: {{error}}"
+  },
+  "languageSelector": {
+    "label": "言語"
+  },
+  "messages": {
+    "you": "あなた",
+    "assistant": "AIアシスタント",
+    "typing": "AIが入力中..."
+  },
+  "errors": {
+    "apiKey": "Groq APIキーがありません。環境変数にVITE_GROQ_API_KEYを追加してください。",
+    "sendMessage": "メッセージの送信に失敗しました",
+    "processImage": "画像の処理に失敗しました",
+    "processAudio": "音声の処理に失敗しました",
+    "browserSupport": "お使いのブラウザはこの機能をサポートしていません"
+  }
+}

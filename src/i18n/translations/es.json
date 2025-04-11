@@ -1,0 +1,35 @@
+{
+  "appTitle": "Asistente de IA Multilingüe",
+  "sendButton": "Enviar",
+  "clearButton": "Limpiar Chat",
+  "inputPlaceholder": "Escribe tu mensaje...",
+  "imageUpload": {
+    "title": "Entrada de Imagen",
+    "uploadButton": "Subir",
+    "captureButton": "Capturar",
+    "clearButton": "Limpiar",
+    "descriptionPlaceholder": "Describe tu imagen...",
+    "sendButton": "Enviar Imagen"
+  },
+  "audioRecording": {
+    "startButton": "Iniciar Grabación",
+    "stopButton": "Detener Grabación",
+    "listeningText": "Escuchando...",
+    "errorText": "Error: {{error}}"
+  },
+  "languageSelector": {
+    "label": "Idioma"
+  },
+  "messages": {
+    "you": "Tú",
+    "assistant": "Asistente IA",
+    "typing": "IA está escribiendo..."
+  },
+  "errors": {
+    "apiKey": "Falta la clave API de Groq. Por favor, añade VITE_GROQ_API_KEY a tus variables de entorno.",
+    "sendMessage": "Error al enviar mensaje",
+    "processImage": "Error al procesar la imagen",
+    "processAudio": "Error al procesar el audio",
+    "browserSupport": "Tu navegador no soporta esta función"
+  }
+}

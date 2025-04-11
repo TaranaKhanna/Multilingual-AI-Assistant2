@@ -1,0 +1,35 @@
+{
+  "appTitle": "다국어 AI 어시스턴트",
+  "sendButton": "보내기",
+  "clearButton": "채팅 지우기",
+  "inputPlaceholder": "메시지를 입력하세요...",
+  "imageUpload": {
+    "title": "이미지 입력",
+    "uploadButton": "업로드",
+    "captureButton": "캡처",
+    "clearButton": "지우기",
+    "descriptionPlaceholder": "이미지를 설명하세요...",
+    "sendButton": "이미지 보내기"
+  },
+  "audioRecording": {
+    "startButton": "녹음 시작",
+    "stopButton": "녹음 중지",
+    "listeningText": "듣는 중...",
+    "errorText": "오류: {{error}}"
+  },
+  "languageSelector": {
+    "label": "언어"
+  },
+  "messages": {
+    "you": "나",
+    "assistant": "AI 어시스턴트",
+    "typing": "AI가 입력 중..."
+  },
+  "errors": {
+    "apiKey": "Groq API 키가 없습니다. 환경 변수에 VITE_GROQ_API_KEY를 추가하세요.",
+    "sendMessage": "메시지 전송 실패",
+    "processImage": "이미지 처리 실패",
+    "processAudio": "오디오 처리 실패",
+    "browserSupport": "브라우저가 이 기능을 지원하지 않습니다"
+  }
+}

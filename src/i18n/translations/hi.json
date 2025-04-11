@@ -1,0 +1,35 @@
+{
+  "appTitle": "बहुभाषी AI सहायक",
+  "sendButton": "भेजें",
+  "clearButton": "चैट साफ़ करें",
+  "inputPlaceholder": "अपना संदेश टाइप करें...",
+  "imageUpload": {
+    "title": "छवि इनपुट",
+    "uploadButton": "अपलोड",
+    "captureButton": "कैप्चर",
+    "clearButton": "साफ़ करें",
+    "descriptionPlaceholder": "अपनी छवि का वर्णन करें...",
+    "sendButton": "छवि भेजें"
+  },
+  "audioRecording": {
+    "startButton": "रिकॉर्डिंग शुरू करें",
+    "stopButton": "रिकॉर्डिंग रोकें",
+    "listeningText": "सुन रहा है...",
+    "errorText": "त्रुटि: {{error}}"
+  },
+  "languageSelector": {
+    "label": "भाषा"
+  },
+  "messages": {
+    "you": "आप",
+    "assistant": "AI सहायक",
+    "typing": "AI टाइप कर रहा है..."
+  },
+  "errors": {
+    "apiKey": "Groq API कुंजी गायब है। कृपया अपने पर्यावरण चर में VITE_GROQ_API_KEY जोड़ें।",
+    "sendMessage": "संदेश भेजने में विफल",
+    "processImage": "छवि संसाधित करने में विफल",
+    "processAudio": "ऑडियो संसाधित करने में विफल",
+    "browserSupport": "आपका ब्राउज़र इस सुविधा का समर्थन नहीं करता है"
+  }
+}

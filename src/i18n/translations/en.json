@@ -1,0 +1,35 @@
+{
+  "appTitle": "Multilingual AI Assistant",
+  "sendButton": "Send",
+  "clearButton": "Clear Chat",
+  "inputPlaceholder": "Type your message...",
+  "imageUpload": {
+    "title": "Image Input",
+    "uploadButton": "Upload",
+    "captureButton": "Capture",
+    "clearButton": "Clear",
+    "descriptionPlaceholder": "Describe your image...",
+    "sendButton": "Send Image"
+  },
+  "audioRecording": {
+    "startButton": "Start Recording",
+    "stopButton": "Stop Recording",
+    "listeningText": "Listening...",
+    "errorText": "Error: {{error}}"
+  },
+  "languageSelector": {
+    "label": "Language"
+  },
+  "messages": {
+    "you": "You",
+    "assistant": "AI Assistant",
+    "typing": "AI is typing..."
+  },
+  "errors": {
+    "apiKey": "Groq API key is missing. Please add VITE_GROQ_API_KEY to your environment variables.",
+    "sendMessage": "Failed to send message",
+    "processImage": "Failed to process image",
+    "processAudio": "Failed to process audio",
+    "browserSupport": "Your browser does not support this feature"
+  }
+}

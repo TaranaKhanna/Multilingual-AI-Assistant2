@@ -1,0 +1,35 @@
+{
+  "appTitle": "多语言AI助手",
+  "sendButton": "发送",
+  "clearButton": "清除聊天",
+  "inputPlaceholder": "输入您的消息...",
+  "imageUpload": {
+    "title": "图像输入",
+    "uploadButton": "上传",
+    "captureButton": "拍摄",
+    "clearButton": "清除",
+    "descriptionPlaceholder": "描述您的图像...",
+    "sendButton": "发送图像"
+  },
+  "audioRecording": {
+    "startButton": "开始录音",
+    "stopButton": "停止录音",
+    "listeningText": "正在听...",
+    "errorText": "错误: {{error}}"
+  },
+  "languageSelector": {
+    "label": "语言"
+  },
+  "messages": {
+    "you": "您",
+    "assistant": "AI助手",
+    "typing": "AI正在输入..."
+  },
+  "errors": {
+    "apiKey": "缺少Groq API密钥。请将VITE_GROQ_API_KEY添加到您的环境变量中。",
+    "sendMessage": "发送消息失败",
+    "processImage": "处理图像失败",
+    "processAudio": "处理音频失败",
+    "browserSupport": "您的浏览器不支持此功能"
+  }
+}
