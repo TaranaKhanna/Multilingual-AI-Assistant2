@@ -152,12 +152,13 @@ const ImageUploader = ({ onImageCaptured }) => {
         placeholder="Describe your image..."
         value={description}
         onChange={(e) => setDescription(e.target.value)}
+        required
       ></textarea>
 
       <button
         className="w-full py-2 bg-green-500 text-white rounded hover:bg-green-600 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors"
         onClick={handleSubmit}
-        disabled={!image}
+        disabled={description === ""}
       >
         Send Image
       </button>

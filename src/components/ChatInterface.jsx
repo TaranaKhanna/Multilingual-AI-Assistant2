@@ -152,7 +152,7 @@ const ChatInterface = ({ language = 'en', model = 'llama3-70b-8192' }) => {
 
           <div className="flex flex-col gap-2">
             <button
-              className="p-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 disabled:bg-gray-300 transition-colors"
+              className="p-1 lg:p-3 flex justify-center bg-blue-500 text-white rounded-full hover:bg-blue-600 disabled:bg-gray-300 transition-colors"
               onClick={handleSend}
               disabled={!input.trim() || isLoading}
               title={t('sendButton')}
@@ -161,7 +161,7 @@ const ChatInterface = ({ language = 'en', model = 'llama3-70b-8192' }) => {
             </button>
 
             <button
-              className={`p-3 ${showImageUploader ? 'bg-red-500 hover:bg-red-600' : 'bg-green-500 hover:bg-green-600'} text-white rounded-full transition-colors`}
+              className={`p-1 lg:p-3 flex justify-center ${showImageUploader ? 'bg-red-500 hover:bg-red-600' : 'bg-green-500 hover:bg-green-600'} text-white rounded-full transition-colors`}
               onClick={toggleImageUploader}
               title={showImageUploader ? t('imageUpload.clearButton') : t('imageUpload.title')}
             >
@@ -171,6 +171,7 @@ const ChatInterface = ({ language = 'en', model = 'llama3-70b-8192' }) => {
             <AudioRecorder
               onAudioCaptured={handleAudioCaptured}
               language={speechLanguageMap[language] || 'en-US'}
+              className="p-1 lg:p-3 flex justify-center"
             />
           </div>
         </div>

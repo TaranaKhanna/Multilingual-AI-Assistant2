@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next';
 import PropTypes from 'prop-types';
 
 const models = [
+  {id: ' LLaVA v1.5 7B', name: ' LLaVA v1.5 7B'},
+  {id: 'llama-3.3-70b-versatile', name: 'Llama 3 (70B) Versatile'},
   { id: 'llama3-70b-8192', name: 'Llama 3 (70B)' },
   { id: 'llama3-70b-8192-instruct', name: 'Llama 3 Instruct (70B)' },
   { id: 'mixtral-8x7b-32768', name: 'Mixtral (8x7B)' },
